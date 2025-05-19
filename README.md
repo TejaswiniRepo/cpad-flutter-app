@@ -1,16 +1,32 @@
-# cpad
+# CPAD Flutter App
 
-A new Flutter project.
+The app is built using **Flutter** and uses **Back4App (Parse Server)** for backend services like authentication and database operations.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- User login/signup with session persistence
+- Add, edit, delete "Person" records
+- Status field with options: Submitted / Not Submitted
+- Deep purple themed UI with gradients and background images
+- Logout support
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Tech Stack
+
+- **Frontend:** Flutter (Dart)
+- **Backend:** Parse Server via Back4App
+- **State Management:** Stateful Widgets
+- **Database:** NoSQL (Back4App Class Objects)
+- **Authentication:** ParseUser
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/TejaswiniRepo/cpad-flutter-app.git
+   cd cpad-flutter-app
